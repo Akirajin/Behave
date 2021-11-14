@@ -2,7 +2,6 @@ Feature: Testing behave
 
   Scenario: run a simple test with FastAPI
     Given we have the application running on "http://localhost:8000/docs"
-    And we have postgreSQL running on "http://locahost:5432"
     And we have the following user in the database
       | name    | surname |
       | Glauber | Rocha   |
